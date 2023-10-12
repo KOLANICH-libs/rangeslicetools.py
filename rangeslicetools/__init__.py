@@ -3,6 +3,10 @@ import types
 import typing
 from functools import wraps
 
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-libs/rangeslicetools.py, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
+
 from . import diff, utils
 
 
